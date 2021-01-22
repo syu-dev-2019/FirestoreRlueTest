@@ -1,0 +1,29 @@
+■ Firestoreセキュリティルール 【セットアップ】
+
+1.ログイン
+firebase login
+
+2.初期設定
+firebase init firestore
+・「Use an existing project」を選択 -> プロジェクト選択
+
+3.エミュレータのポート作成
+firebase init emulators
+
+4.Firebase Emulatorの起動
+firebase emulators:start
+
+5.テストの実行
+yarn test
+
+
+■ 設定ファイル
+1.tsconfig作成
+2.package.json作成
+・Devパッケージ追加　→　Jestバグ対策：https://zenn.dev/kinmi/articles/firestore-rules-jest
+・scripts追加
+・Jest設定追加
+
+■ テストファイル
+・ルール作成
+・テストコード作成
